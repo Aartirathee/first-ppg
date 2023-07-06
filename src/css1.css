@@ -130,9 +130,13 @@
   }
 
   @media (max-width: 768px) {
-    #userList {
+    .filters {
+        display: block;
+        margin-top: 20px;
       grid-template-columns: 1fr;
+
     }
+
   }
 
   
